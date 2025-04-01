@@ -35,13 +35,12 @@ The benchmarking results reflect the total execution time required to compute de
 
 | Processes | Time (seconds) | Speedup (%) |
 |-----------|----------------|-------------|
-| 1 (serial)| X.XXX          | 100.00%     |
-| 2         | X.XXX          | XXX.XX%     |
-| 3         | X.XXX          | XXX.XX%     |
-| 4         | X.XXX          | XXX.XX%     |
-| 6         | X.XXX          | XXX.XX%     |
+| 1 (serial)| 0.5203         | 100.00%     |
+| 2         | 0.2972         | 175.07%     |
+| 3         | 0.2186         | 237.93%     |
+| 4         | 0.1788         | 291.00%     |
+| 6         | 0.1422         | 365.82%     |
 
-*Note: Replace X.XXX with actual values from `data/benchmark_times.csv`.*
 
 A visual comparison is also available in `plots/benchmark_plot.png`, which clearly illustrates the performance gains with increasing number of processes.
 
