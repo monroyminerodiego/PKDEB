@@ -1,7 +1,5 @@
 # Parallel-Kernel-Density-Estimation-Benchmark
 
-# Parzen Window Estimation - Serial vs. Multiprocessing
-
 ## Introduction
 This project implements the Parzen window estimation method using both serial and multiprocessing approaches in Python. The goal is to evaluate the performance differences between the two methods when estimating the probability density function (PDF) of a multidimensional Gaussian distribution.
 
@@ -42,7 +40,8 @@ The benchmarking results reflect the total execution time required to compute de
 | 6         | 0.1422         | 365.82%     |
 
 
-A visual comparison is also available in `plots/benchmark_plot.png`, which clearly illustrates the performance gains with increasing number of processes.
+The following chart clearly illustrates the performance gains with increasing number of processes:
+![benchmark_plt](./plots/benchmark_plot.png)
 
 ## Conclusions
 - Multiprocessing significantly reduces the runtime of Parzen window estimation, especially when using 4 or more processes.
