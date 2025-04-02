@@ -106,6 +106,7 @@ def plot_benchmark_results(benchmarks, filename=None):
 
 if __name__ == '__main__':
     
+    # ====== Generacion de ejemplo
     fig = plt.figure(figsize=(7,7))
     ax = fig.add_subplot(111, projection='3d')
     ax.set_aspect("auto")
