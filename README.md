@@ -54,7 +54,7 @@ Overall, the results validate the effectiveness of using Python's multiprocessin
 
 
 ## Authors
-* Caballero Col Alejandro
+* Caballero Coll Alejandro
 * Chiquete Ayala Paulina
 * Dominguez Jaber T. Estefania
 * Monroy Minero Diego
